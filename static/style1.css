@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.navline {
+    background-color: #beb9b9;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(0, 0, 0);
+}
+.logo h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+.butt button {
+margin-left: 100px;
+width: 150px;
+height: 40px;
+border-radius: 10px;
+padding: 0px 16px 0px 16px;
+font-size: 20px;
+border: none;
+background-color: #393737;
+color: white;
+}
+.povars{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    padding-left: 150px;
+    margin-top: 60px;
+    gap: 20px;
+}
+.text h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text{
+    font-family: sans-serif;
+}

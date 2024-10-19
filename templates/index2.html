@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "style.css" %}">
+    <title>Menu</title>
+    </head>
+    <body>
+        <div class="navline">
+            <div class="logo">
+                <h1>Sultanbey</h1>
+            </div>
+            <div class="butt">
+                <a href="http://127.0.0.1:8000/home/">
+                    <button>Home</button>
+                </a>
+                <a href="http://127.0.0.1:8000/about/">
+                    <button>About</button>
+                </a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="con">
+                <div class="rang"><img src="{% static "img1.jpg" %}" alt=""></div>
+                <h1>olivie</h1>
+                <p>4$</p>
+                <button class="but1">buy</button>
+            </div>
+            <div class="con">
+                <div class="rang"><img src="{% static "plov2.jpg" %}" alt=""></div>
+                <h1>Plov</h1>
+                <p>20$</p>
+                <button class="but1">buy</button>
+            </div>
+            <div class="con">
+                <div class="rang"><img src="{% static "sikhikabeb.jpg" %}" alt=""></div>
+                <h1>Sikhi kabab</h1>
+                <p>10$</p>
+                <button class="but1">buy</button>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="con">
+                <div class="rang"><img src="{% static "cezar.jpg" %}" alt=""></div>
+                <h1>Cezar</h1>
+                <p>3$</p>
+                <button class="but1">buy</button>
+            </div>
+            <div class="con">
+                <div class="rang"><img src="{% static "chiken.jpg" %}" alt=""></div>
+                <h1>Chiken in garnire</h1>
+                <p>25$</p>
+                <button class="but1">buy</button>
+            </div>
+            <div class="con">
+                <div class="rang"><img src="{% static "desert.jpg" %}" alt=""></div>
+                <h1>Desert</h1>
+                <p>8$</p>
+                <button class="but1">buy</button>
+            </div>
+        </div>
+</body>
+</html>
